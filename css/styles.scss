@@ -1,0 +1,40 @@
+$borderSize: 15px;
+$divHeight: 50px;
+$borderType: solid; 
+
+.greenBorder{
+    border:$borderSize $borderType green;
+    height:$divHeight;
+}
+
+.redBorder{
+    border:$borderSize $borderType red;
+    height: $divHeight;
+}
+
+.blueBorder{
+    border:$borderSize $borderType blue;
+    height: $divHeight;
+}
+
+.purpleBorder{
+    border:$borderSize $borderType purple;
+    height: $divHeight;
+}
+
+.aquaBorder{
+    border:$borderSize $borderType aqua;
+    height: $divHeight;
+
+}
+
+//Classes under parentDiv
+.parentDiv{
+    border:$borderSize $borderType gray;
+    .fontBold{
+        font-weight: bold;
+        .colorRed{
+            color: red;
+        }
+    }
+}

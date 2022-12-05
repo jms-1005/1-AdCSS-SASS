@@ -1,0 +1,34 @@
+.greenBorder {
+  border: 15px solid green;
+  height: 50px;
+}
+
+.redBorder {
+  border: 15px solid red;
+  height: 50px;
+}
+
+.blueBorder {
+  border: 15px solid blue;
+  height: 50px;
+}
+
+.purpleBorder {
+  border: 15px solid purple;
+  height: 50px;
+}
+
+.aquaBorder {
+  border: 15px solid aqua;
+  height: 50px;
+}
+
+.parentDiv {
+  border: 15px solid gray;
+}
+.parentDiv .fontBold {
+  font-weight: bold;
+}
+.parentDiv .fontBold .colorRed {
+  color: red;
+}/*# sourceMappingURL=styles.css.map */
